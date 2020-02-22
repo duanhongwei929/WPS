@@ -1,0 +1,148 @@
+.nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999999;
+}
+.index-head{
+    overflow: hidden;
+    padding: 36px 0 36px;
+}
+.index-head ul{
+    overflow: hidden;
+    margin-left: 50px;
+}
+.index-head ul li{
+    float:left;
+    padding:0 20px;
+    cursor:pointer;
+}
+.index-head ul li a{
+    color:#fff;
+}
+
+.banner{/* 有图了高度为自适应 */
+    width: 100%;
+    height: 290px;
+    background: #012e83;
+}
+
+/* 热门下载 */
+
+.hot-down{ overflow: hidden;}
+.hot-down li{
+    width: 33.333%;
+    float: left;
+    margin-bottom: 125px;
+    cursor:default;
+}
+.icon-back{
+    background: #d7ecff;
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.hot-font{
+    text-align: center;
+    margin-top: 38px;
+}
+.hot-font h1{
+    font-size: 26px;
+    font-weight:normal;
+}
+.hot-font p{
+    font-size: 18px;
+    margin-top: 20px;
+    line-height: 30px;
+    color: #a2a2a2;
+}
+.hot-down li:hover .icon-back{
+    /*animation: s 1s;*/
+    box-shadow: 0 0 10px 0 rgba(215,236,255,1);
+}
+.hot-down li:hover .hot-font h1,.hot-down li:hover .hot-font p{
+    text-shadow: 5px 5px 5px rgba(215,236,255,1);
+}
+@keyframes s {
+    0%{
+        background-color:rgba(215,236,255,1);
+    }
+    100%{
+        background-color:rgba(182,220,255,1);
+    }
+}
+/* banner2 */
+.banner{
+    width: 100%;
+    height: 460px;
+    background: url("../images/banner.png") center no-repeat;
+}
+.banner2{
+    width: 100%;
+    height: 460px;
+    background: url("../images/banner2.png") center no-repeat;
+}
+/* 其他产品 */
+.products{
+    overflow: hidden;
+    padding: 40px 8px 120px;
+}
+.products li{
+    width: 266px;
+    height: 386px;
+    margin-right: 40px;
+    background: #f3f3f3;
+    border-radius: 20px;
+    float: left;
+}
+.products li:last-child{
+    margin-right: 0;
+}
+.products li div{
+    text-align: center;
+}
+.products li:hover{
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.products .img{
+    margin-top: 70px;
+}
+.products .hot-font h1{
+    font-size: 24px;
+}
+.products .hot-font p{
+    margin-top: 10px;
+}
+.products .hot-font{
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
