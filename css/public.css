@@ -12,10 +12,13 @@ a{ text-decoration: none;}
 .m-t-10{ margin-top: 10px;}
 .m-t-20{ margin-top: 20px;}
 .m-t-120{ margin-top: 120px;}
+.m-t-40{ margin-top: 40px;}
+.m-t-80{ margin-top: 80px;}
 
 .m-b-10{ margin-bottom: 10px;}
 .m-b-20{ margin-bottom: 20px;}
 .m-b-40{ margin-bottom: 40px;}
+.m-b-80{ margin-bottom: 80px;}
 .m-b-120{ margin-bottom: 120px;}
 
 .p-b-10{ padding-bottom: 10px;}
@@ -225,7 +228,16 @@ select{
     display: inline-block;
     color:#555555;
 }
-
+.side{
+    display: none;
+    position: fixed;
+    right: 0;
+    top: 50%;
+    width:72px;
+    height:172px;
+    background:linear-gradient(45deg,rgba(145,213,255,1) 0%,rgba(9,109,217,1) 100%);
+    box-shadow:0px 0px 8px 2px rgba(210,210,210,0.58);
+}
 
 
 

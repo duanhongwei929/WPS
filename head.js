@@ -1,0 +1,12 @@
+document.writeln("<div class=\'nav\'>");
+document.writeln("    <div class=\'content index-head\'>");
+document.writeln("        <img class=\'f-l\' src=\'images/logo.png\' alt=\'\'>");
+document.writeln("        <ul class=\'f-l m-r-20\'>");
+document.writeln("            <li><a href=\'\'>所有产品</a></li>");
+document.writeln("            <li><a href=\'\'>政企服务</a></li>");
+document.writeln("            <li><a href=\'\'>中小企业</a></li>");
+document.writeln("            <li><a href=\'\'>会员服务</a></li>");
+document.writeln("            <li><a href=\'\'>关于WPS</a></li>");
+document.writeln("        </ul>");
+document.writeln("    </div>");
+document.writeln("</div>");
